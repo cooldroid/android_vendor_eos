@@ -119,6 +119,11 @@ PRODUCT_PACKAGES += \
 # T-Mobile theme engine
 include vendor/eos/config/themes_common.mk
 
+# Chromium prebuilt
+ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
+-include prebuilts/chromium/$(TARGET_DEVICE)/chromium_prebuilt.mk
+endif
+
 PRODUCT_PACKAGE_OVERLAYS += vendor/eos/overlay/common
 
 # Inherit common product build prop overrides
