@@ -58,6 +58,7 @@ PRODUCT_PACKAGES += \
     AudioFX \
     BluetoothExt \
     CustomWallpapers \
+    Development \
     Eleven \
     Launcher3 \
     LockClock \
