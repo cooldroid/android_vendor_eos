@@ -62,7 +62,8 @@ PRODUCT_PACKAGES += \
     Eleven \
     Launcher3 \
     LockClock \
-    OTACenter 
+    OTACenter \
+    Profiles
 
 # Extra tools
 PRODUCT_PACKAGES += \
