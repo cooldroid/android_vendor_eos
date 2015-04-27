@@ -105,6 +105,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.root_access=0
 
+# CM Platform Library
+PRODUCT_PACKAGES += \
+    org.cyanogenmod.platform-res \
+    org.cyanogenmod.platform \
+    org.cyanogenmod.platform.xml
+
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
     org.cyanogenmod.hardware \
