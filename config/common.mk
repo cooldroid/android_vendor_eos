@@ -63,7 +63,8 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     LockClock \
     OTACenter \
-    Profiles
+    Profiles \
+    WallpaperPicker
 
 # Extra tools
 PRODUCT_PACKAGES += \
