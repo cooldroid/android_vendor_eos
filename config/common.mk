@@ -60,10 +60,10 @@ PRODUCT_PACKAGES += \
     CustomWallpapers \
     Development \
     Eleven \
-    Launcher3 \
     LockClock \
     OTACenter \
     Profiles \
+    Trebuchet \
     WallpaperPicker
 
 # Extra tools
